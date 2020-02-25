@@ -64,7 +64,7 @@
         <!-- iPad Pro -->
         <icon src="./res/icon/ios/167.png" width="167" height="167" />
 		<icon src="./res/icon/ios/1024.jpg" width="1024" height="1024" />
-	    <!-- <preference name="phonegap-version" value="cli-9.0.0" /> -->
+	    <preference name="phonegap-version" value="cli-9.0.0" />
 		<preference name="deployment-target" value="7.0" />
     </platform>
 	
