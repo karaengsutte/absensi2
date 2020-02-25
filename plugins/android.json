@@ -1,0 +1,79 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-camera": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-device-orientation": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-googlemaps": {
+      "PLAY_SERVICES_VERSION": "15.0.1",
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-gpslocation": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-save-image": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-tts": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "cordova-unique-device-id": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.ahmar.id.absensifmipa"
+    }
+  }
+}

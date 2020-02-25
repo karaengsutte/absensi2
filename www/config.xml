@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="eabsensi.ahmar" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>eAbsensi FMIPA</name>
+    <description>
+        eAbsensi
+    </description>
+    <author email="ansari@gmail.com" >
+        Ansari
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <access origin="http://absensi.fmipa.unm.ac.id" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+	<allow-navigation href="http://absensi.fmipa.unm.ac.id/*" />
+	<allow-navigation href="*" />
+
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="ldpi" src="./res/icon/android/icon-36x36.png" />
+        <icon density="mdpi" src="./res/icon/android/icon-48x48.png" />
+        <icon density="hdpi" src="./res/icon/android/icon-72x72.png" />
+        <icon density="xhdpi" src="./res/icon/android/icon-96x96.png" />
+        <icon density="xxhdpi" src="./res/icon/android/icon-144x144.png" />
+        <icon density="xxxhdpi" src="./res/icon/android/icon-196x196.png" />
+        <splash density="land-ldpi" src="./res/screen/android/screen-320x200.png" />
+        <splash density="land-mdpi" src="./res/screen/android/screen-480x320.png" />
+        <splash density="land-hdpi" src="./res/screen/android/screen-800x480.png" />
+        <splash density="land-xhdpi" src="./res/screen/android/screen-1280x720.png" />
+        <splash density="port-ldpi" src="./res/screen/android/screen-200x320.png" />
+        <splash density="port-mdpi" src="./res/screen/android/screen-320x480.png" />
+        <splash density="port-hdpi" src="./res/screen/android/screen-480x800.png" />
+        <splash density="port-xhdpi" src="./res/screen/android/screen-720x1280.png" />
+        
+   <preference name="android-minSdkVersion" value="22" />
+   <preference name="android-targetSdkVersion" value="28" /> 
+
+    </platform>
+
+
+
+<plugin name="cordova-plugin-camera" spec="2.4.1" />
+
+  <plugin name="cordova-plugin-media-capture" source="npm" spec="1.4.1" >
+    <variable name="CAMERA_USAGE_DESCRIPTION" value="App would like to access the camera." />
+
+    <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="App would like to access the library." />
+  </plugin>
+
+
+
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^2.0.2" />
+    <plugin name="cordova-plugin-device" spec="^2.0.1" />
+    <plugin name="cordova-plugin-local-notification" spec="~0.9.0-beta.2" />
+</widget>
